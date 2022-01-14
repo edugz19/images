@@ -4,8 +4,7 @@
 }
 
 .row {
-    display: flex;
-    flex-flow: row nowrap;
+    display: inline-flex;
 }
 
 .img {
@@ -28,3 +27,16 @@
     text-decoration: none;
     color: rgb(101, 101, 241);
 }
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 23px;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-spacing: 0;
+ }
